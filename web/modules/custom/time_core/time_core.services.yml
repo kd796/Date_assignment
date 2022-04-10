@@ -1,0 +1,4 @@
+services:
+  time_core.getdatetime:
+    class: Drupal\time_core\services\TimeService
+    arguments: ['@datetime.time','@date.formatter','@config.factory']

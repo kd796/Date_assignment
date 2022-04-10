@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function time_core_theme($existing, $type, $theme, $path){
+    $tplPath = drupal_get_path('module', 'vrt_et_hcp') . '/templates';
+    return [
+        'time_show'=> [
+            'variables'=>[
+                'daytime'=>NULL,
+                'city'=>NULL,
+                'country'=>NULL,
+                
+            ],
+
+        ],
+    ];
+}

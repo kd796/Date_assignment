@@ -1,0 +1,6 @@
+time_core.settings:
+  title: Time Settings
+  description: Configure settings for location.
+  parent: system.admin_config_content
+  route_name: time_core.settings
+  weight: 20

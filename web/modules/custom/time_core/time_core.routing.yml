@@ -1,0 +1,7 @@
+time_core.settings:
+  path: '/admin/config/content/time'
+  defaults:
+    _title: 'Location Settings'
+    _form: 'Drupal\time_core\Form\TimeForm'
+  requirements:
+    _permission: 'administer site configuration'
