@@ -6,7 +6,7 @@ use Drupal\Core\Form\ConfigFormBase;
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Configure Sessions core settings for this site.
+ * Configure Location settings for this site.
  */
 class TimeForm extends ConfigFormBase {
 
